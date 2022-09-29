@@ -1,0 +1,295 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Georgios Anastasiou
+    tagline: Infrastructure Architect
+    avatar: profile_photo.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: george.c.anastasiou@gmail.com
+    phone: 00420777948779
+    timezone: Europe/Prague Timezone
+    citizenship: Greek
+    #website: blog.webjeda.com #do not add http://
+    linkedin: ganastasiou
+    #xing: alandoe
+    github: etcshad0vv
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Advanced
+
+        - idiom: Greek
+          level: Native
+
+
+    interests:
+      title: Interests
+      info:
+        - item: Travelling, Cooking
+          link:
+
+        - item: Sports - Basketball, Soccer, Tennis
+          link:
+
+        - item: Technology, Music, Movies
+          link:
+
+    soft-skills:
+      title: Organizational Skills
+      skills:
+        - item: Excellent Communication skills
+
+        - item: Leadership
+
+        - item: Cross-functional Collaboration
+
+        - item: Analytical mindset
+
+        - item: Negotiation & Persuation
+
+        - item: Time management
+
+career-profile:
+    title: Career Profile
+    summary: |+
+      7+ years of experience in Systems Engineering. 
+      Currently working as an Infrastructure Architect for a global MSP. 
+      A Computer Technology addict with emphasis on Cloud-native driven thinking. 
+      Promoter of Open-Source software and Open Organizational Culture.
+      Profound knowledge of Microservices Architecture and Virtualization Technologies. 
+      Challenging logic and reasonable attitude towards the success of a rewarding product.
+
+education:
+    title: Education & Certification
+    info:
+#      - degree: MSc in Computer Science
+#        university: University of London
+#        time: 2011 - 2012
+#        details: |
+#          Describe your study here lorem ipsum dolor sit amet, consectetuer
+#          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#          sociis natoque penatibus et magnis dis parturient montes, nascetur
+#          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#          pretium quis, sem.
+#            - Bullet point
+#            - Bullet point
+      - degree: BSc in Computer Science 
+        university: Technological Educational Institution Stereas Elladas - Faculty of IT Engineering
+        time: 2005 - 2011
+      
+      - degree: Master Certified Technical Specialist
+        university: The Open Group
+        time: 09/2021
+
+      - degree: Red Hat Certified Architect in Infrastructure
+        university: Red Hat
+        time: 12/2021
+      
+      - degree: Red Hat Certified Specialist in Ansible Automation
+        university: Red Hat
+        time: 09/2019
+
+      - degree: Red Hat Certified Specialist in High Availability Clustering
+        university: Red Hat
+        time: 06/2019
+
+      - degree: Red Hat Certified Specialist in OpenShift Application Development
+        university: Red Hat
+        time: 12/2021
+
+      - degree: "Red Hat Certified Specialist in Advanced Automation: Advanced Ansible Best Practices"
+        university: Red Hat
+        time: 12/2021
+
+      - degree: IBM Cloud Solution Advisor - IBM Cloud Foundations V2
+        university: IBM
+        time: 08/2021
+
+      - degree: VMware Certified Professional - Data Center Virtualization 2020
+        university: VMware
+        time: 05/2020
+
+      - degree: VMware Certified Specialist - vSphere with Tanzu
+        university: VMware
+        time: 11/2021
+
+experiences:
+    title: Work Experience
+    info:
+      - role: Infrastructure Architect
+        time: 05/2021 - Present
+        company: Kyndryl Brno,CZ
+        details: |
+          Responsible for designing, implementing, documenting and maintaining Kubernetes native service units. 
+          Team member of Engineering unit, that participates in delivering and managing Containers Management service offering.
+          Providing a service portfolio that essentially extends the core Kubernetes capabilities of our customers.
+          Mainly focusing on service units around CI/CD, IaC, Monitoring/Logging, Resiliency and Security.
+
+          Worked with following technologies:
+            - CVS(Git)
+            - Kubernetes/OpenShift, Container Runtimes(Docker, containerd, CRI-O)
+            - Tekton, Jenkins
+            - Crossplane, Terraform, Ansible
+            - Velero, Konveyor
+            - Prometheus Stack, Elastic Stack, Loki
+            - Trivy, kube-bench, Falco, Auditd, Aide, OpenSCAP, Lynis, Kyverno, OPA Gatekeeper
+          
+          Acting as product owner, collecting client and engineer's functional requirements,feature requests,feedback to decide on product roadmap of owned service units.<br />
+          Following Scrum methodology, planning Epics, User Stories and bi-weekly Sprints in service unit squads.
+
+      - role: Senior Infrastructure Engineer
+        time: 09/2015 - 05/2021
+        company: IBM Brno,CZ
+        details: |
+          "Leading without authority" a diverse team that always treats with respect each other, foster team spirit and succeeding or failing together as a team; Learning from failures and measure outcomes; 
+          Mentoring/Coaching individuals and cross-functional team members. In the day-to-day tasks embracing DevOps principles. Identifying, Analyzing and Automating repetative tasks to improve team velocity.
+          Documenting using static page generator the operational guides and knowledge base. 
+
+          Worked with following technologies:
+            - Scripting(shell, ruby, python)
+            - CVS(Git)
+            - mkdocs/jekyll
+            - Kubernetes/OpenShift, Tanzu Kubernetes Grid, Container Runtimes
+            - VMware SDDC(vSphere, vSAN, NSX-v/T)
+            - Linux KVM, RHV(oVirt), CloudForms, Ansible Engine, Ansible Tower
+
+      - role: External Lecturer
+        time: 02/2019 - 02/2020
+        company: Masaryk University Brno,CZ
+        details: |
+          Participating in organizationally sponsored contribution program "Smarter University Program" to teach students about **Cloud Computing** in Faculty of Informatics of Masaryk University.
+          Describing the Cloud Deployment Models, the service models, and the business motivational reasons behind the strategic movement from one deployment model to another.
+          
+          Assigned projects to small groups of students, on developing an in Infrastructure, Platform or Software as-a-service model service.
+
+      - role: Product Integration/Systems Engineer
+        time: 06/2014 - 08/2015
+        company: Upstream Athens,GR
+        details: |
+          Together with mobile network operators from several continents, develop, implement and establish connectivity of integration gateways to run SMS marketing campaigns. 
+          Integrating our product middleware either with SMPP protocol or Restful API based GSM Gateways on top of established VPN tunnels.
+
+          Responsibilities:
+          - Understanding the Mobile Network Operator GSM Gateway specifications
+          - Working with developers and project manager to prioritize the missing integration points
+          - Testing of integration
+          - Identifying performance gaps and tune them either on Linux system or on the Application/Gateway configuration
+          - Develop the custom monitoring solution on a per integration scope, by extending the application metrics that would suffice to the agreed SLAs
+
+      - role: Systems Engineer(Freelancing)
+        time: 06/2013 - 11/2015
+        company: DeltaNet LLC London,UK
+        details: |
+          Working for a London based Hosting & Service Provider, maintaining availability of systems in multiple EU regions.
+
+          Day 0: 
+            - Designing new systems by preparing asset BOM, considering cost-efficient hardware and software
+
+          Day 1:
+            - Automating the infrastructure provisioning
+            - Running conformance tests to assess and ensure the hardware and software works as it should
+
+          Day 2:
+            - Maintaining/Upgrading the infrastructure services
+            - Determining problems and communicate changes that impact on client workloads always considering the agreed SLAs
+            - Brainstorming potential improvements, consolidation of services to simplify management 
+          
+      - role: NOC Engineer
+        time: 11/2012 - 05/2013
+        company: Intracom Holdings Athens,GR
+        details: |
+          Post my internship and based on the positive experience and interest both sides had, i joined the NOC operations team on the offered cloud enterprise services.
+
+          Working on night shifts to supervise, monitor and maintain the enterprise's services.
+
+      - role: IT Help Desk technician
+        time: 05/2012 - 10/2012
+        company: Intracom Holdings Athens,GR
+        details: |
+          Being an intern for 6 months in a telecommunications company. 
+
+          Mainly responsibly to provide technical support on internal IT services.
+          Running trainings to internal employees towards new internal IT services. Requesting feedback to find out the strengths and weaknesses on our provided services.
+                   
+
+projects:
+    title: Projects
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: "# Reference Architecture on VMware NSX-T as SDN/CNI solution of Red Hat OpenShift"
+        #link: "#hook"
+        tagline: |
+          Working together with both technology partners(Red Hat & VMware) to develop, validate and certify a Reference Architecture asset owned by IBM.
+
+      - title: "# Distributed unattended virtual systems provisioning service"
+        #link: "#"
+        tagline: |
+          In my early years once i started working in IBM, and when the IaC tooling or configuration management where not yet that mature, i had built a distributed web service to kickstart the vm provisioning 
+          and improve parallelism and time needed to provision virtual machines in multiple regions for a manufacturing client.
+
+      - title: "# Wireless Metropolitan Network in the city of Lamia in Central Greece"
+        #link: "#"
+        tagline: |
+          I took the initiative and created the first wireless backbone network in the City of Lamia, while i was doing my BSc studies. University personnel agreed to invest on this initiative, and joined us.
+          We managed to expand the network coverage in the city centre using omnidirectional antennas and wireless access points owned by the active participants of the network backbone.
+          At the same time, we achieved on presenting University IT services(such as e-class, digital library) without the necessity to be an owner of Internet line once you are at home, as long as you are using your laptop 
+          close to scattered WAPs in the city. 
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Technical Skills
+
+    toolset:
+      - name: Cloud Services
+        level: 65%
+
+      - name: Infrastructure
+        level: 90%
+
+      - name: Angular
+        level: 98%
+
+
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
